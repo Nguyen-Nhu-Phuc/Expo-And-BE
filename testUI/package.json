@@ -1,0 +1,44 @@
+{
+  "name": "testui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/bottom-tabs": "^7.2.1",
+    "@react-navigation/stack": "^7.1.2",
+    "axios": "^1.8.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.5.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "expo": "~52.0.37",
+    "expo-status-bar": "~2.0.1",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.13.1",
+    "mongoose": "^7.8.6",
+    "mongoose-delete": "^1.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-maps": "^1.20.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
